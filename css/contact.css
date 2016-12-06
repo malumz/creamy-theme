@@ -1,0 +1,122 @@
+
+body {
+	background : #f4f0bb; ;
+}
+
+/*-------------------------------------HEADER*/
+ header .navbar {
+	margin-bottom:0px;
+}
+
+.navbar-default {
+	background: #da2c38;
+	border: 1px solid  #da2c38; 
+}
+
+.navbar-default .navbar-header a {
+	color: #f4f0bb;
+	font-family:'Merriweather' ;
+}
+
+.navbar-default .navbar-right li a {
+	color: #f4f0bb;
+}
+
+
+
+
+.contactanos {
+	background-image: url("../img/creamy.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #f4f0bb;
+}
+.contactanos .opacity {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 5% 0;
+	margin-top: 15%; }
+
+.contactanos {
+	text-align: center;
+}
+
+.contactanos input {
+	width: 20%;
+	padding: 3px 5px;
+}
+
+.contactanos textarea {
+	width: 20%;
+	padding: 3px 5px;
+	padding-bottom: 25px;
+}
+
+.contactanos button {
+	border: none;
+	color: #da2c38;
+	background: #f4f0bb;
+	padding: 6px 8px;
+	border-radius: 8px;
+}
+
+footer {
+	background-color: #da2c38;
+	color: #f4f0bb;
+}
+
+footer .padding2 {
+	padding: 2% 0;
+}
+
+
+@media screen and (max-width:1000px)
+{
+	.container {
+		width: 100%;
+	}
+
+	.contactanos input {
+		width: 30%;
+	}
+
+	.contactanos textarea {
+	width: 30%;
+}
+
+.navbar-default .navbar-header button:focus {
+		background: #da2c38;
+	}
+
+	.navbar-default .navbar-header button:hover {
+		background: #da2c38;
+	} 
+}
+
+@media screen and (max-width:520px)
+{
+	.container {
+		width: 100%;
+	}
+
+	.contactanos input {
+		width: 40%;
+	}
+
+	.contactanos textarea {
+	width: 40%;
+}
+
+.navbar-default .navbar-right li a {
+	color: #da2c38 ;
+}
+
+
+.navbar-default .navbar-header button:focus {
+		background: #da2c38;
+	}
+
+	.navbar-default .navbar-header button:hover {
+		background: #da2c38;
+	}
+}

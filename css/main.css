@@ -85,4 +85,8 @@ footer .padding2 {
 	.navbar-default .navbar-header button:focus {
 		background: #da2c38;
 	}
+
+	.navbar-default .navbar-header button:hover {
+		background: #da2c38;
+	}
 }
