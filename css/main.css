@@ -33,7 +33,7 @@ body h2, h3, .Icomoon h4 {
 }
 .hero-section .back {
 	padding-top: 15%;
-	padding-bottom: 24%;
+	padding-bottom: 20%;
 }
 /*--------------------------------SO CREAMY-SECTION*/
 .so-creamy {
@@ -81,4 +81,8 @@ footer .padding2 {
 	.hero-section .back {
 	padding-top: 15%;
 	padding-bottom: 36%; }
+
+	.navbar-default .navbar-header button:focus {
+		background: #da2c38;
+	}
 }
